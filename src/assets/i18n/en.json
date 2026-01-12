@@ -162,6 +162,34 @@
         "title": "Contact us today and find out what KPI can do for your business.",
         "text": "Over 700 clients in 50+ countries worldwide trust us. Join our happy customers and develop your business today.",
         "button": "Start Now"
+      },
+
+      "middelware_section": {
+        "top": "Our Clients",
+        "title": "With KPI, more than 700+ companies around the world work efficiently. Our clients operate in various industries: small startups, medium-sized businesses, and large corporations.",
+        "bottom_texts": {
+          "first": "Clients",
+          "second": "Countries",
+          "third": "Industries"
+        },
+        "cards_md": {
+          "card_1": {
+            "title": "Automation",
+            "text": "Our platform simplifies processes and increases efficiency. Clients can speed up workflows and reduce errors."
+          },
+          "card_2": {
+            "title": "Global Support",
+            "text": "Our team provides continuous support for clients operating in more than 50 countries. Any question or issue is resolved quickly and efficiently."
+          },
+          "card_3": {
+            "title": "Resource Management",
+            "text": "With KPI, it becomes easier to optimally allocate and control resources. Clients experience convenience in managing all aspects of their business."
+          },
+          "card_4": {
+            "title": "Growth and Development",
+            "text": "Using KPI, our clients make decisions faster, reduce costs, and grow their business more rapidly."
+          }
+        }
       }
     },
     "Resurces": {
@@ -169,6 +197,31 @@
         "title": "Knowledge & Resources",
         "text": "Manuals, articles, and practical experience on ERP, business management, and digital transformation. Reliable and useful resources to help you in decision-making.",
         "button": "All Resources"
+      },
+      "recommended_resources": {
+        "title": "Recommended Resources",
+        "items": {
+          "guide": {
+            "type": "Guide",
+            "title": "ERP System Selection Guide",
+            "description": "Key aspects to consider when choosing the right ERP system for your business."
+          },
+          "case_study": {
+            "type": "Case Study",
+            "title": "ERP Implementation in a Construction Company",
+            "description": "Explore a real project and the results achieved."
+          },
+          "article": {
+            "type": "Article",
+            "title": "Where Does Digital Transformation Begin?",
+            "description": "Essential recommendations for small and medium-sized businesses."
+          }
+        },
+        "subscribe": {
+          "title": "Want to learn more?",
+          "text": "Be the first to get updates on new articles and guides.",
+          "button": "Get Started"
+        }
       }
     },
     "Contect": {
@@ -176,6 +229,56 @@
         "title": "Contact us today and find out what KPI can do for your business.",
         "text": "Over 700 clients in 50+ countries worldwide trust us. Join our happy customers and develop your business",
         "button": "Start Now"
+      },
+      "contact_form": {
+        "title": "Contact Us",
+        "fields": {
+          "name": "Your Name",
+          "email": "Email",
+          "phone": "Phone Number",
+          "message": "Your Message"
+        },
+        "button": {
+          "submit": "Send"
+        }
+      },
+      "build_erp_section": {
+        "title": "Build ERP",
+        "description": "A modern ERP system to automate your construction and business operations",
+        "features": {
+          "first": "Project and workforce management",
+          "second": "Warehouse and financial management",
+          "third": "Real-time reports"
+        }
+      }
+    },
+    "blog": {
+      "header": {
+        "title": "Our Blog",
+        "description": "Useful and simple articles about technology, programming, and ERP systems"
+      },
+      "featured": {
+        "badge": "Featured",
+        "title": "How ERP Can Transform Your Business",
+        "description": "About the impact of ERP systems on real business processes and ways to increase efficiency.",
+        "button": "Join Us"
+      },
+      "cards": {
+        "card_1": {
+          "category": "ERP",
+          "title": "Do Small Businesses Need ERP?",
+          "description": "How small businesses can benefit from ERP."
+        },
+        "card_2": {
+          "category": "Business",
+          "title": "Automating Business Processes",
+          "description": "Key methods to increase efficiency."
+        },
+        "card_3": {
+          "category": "IT",
+          "title": "What You Need to Know About ERP Security",
+          "description": "Recommendations for ensuring data security."
+        }
       }
     }
   },
@@ -187,6 +290,53 @@
         "f_btn": "contact us",
         "s_btn": "Login"
       }
+    },
+    "header": {
+      "nav": {
+        "home": "Home",
+        "customers": "Customers",
+        "resources": "Resources",
+        "contact": "Contact",
+        "blog": "Blog",
+        "cta_button": "Get Started"
+      }
+    },
+    "footer": {
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About",
+          "careers": "Careers",
+          "brand_center": "Brand Center",
+          "blog": "Blog"
+        }
+      },
+      "help_center": {
+        "title": "Help Center",
+        "links": {
+          "discord": "Discord Server",
+          "twitter": "Twitter",
+          "facebook": "Facebook",
+          "contact": "Contact Us"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacy Policy",
+          "licensing": "Licensing",
+          "terms": "Terms & Conditions"
+        }
+      },
+      "find_us": {
+        "title": "Find Us",
+        "social": {
+          "facebook": "Facebook",
+          "linkedin": "LinkedIn",
+          "twitter": "Twitter"
+        }
+      },
+      "copyright": "© 2007 2025 KPI Software Inc"
     }
   }
 }

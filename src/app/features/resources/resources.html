@@ -1,45 +1,45 @@
 <app-bg-component
-  title="Bilim &"
+  [title]="'pages.Resurces.hero_section.title'|translate"
   titlePlus="Resurslar"
-  text="ERP, biznes boshqaruvi va raqamli transformatsiya bo‘yicha qo‘llanmalar, maqolalar va amaliy tajribalar. Qaror qabul qilishda sizga yordam beradigan ishonchli va foydali manbalar."
-  btnName="Barcha resurslar"
+  [text]="'pages.Resurces.hero_section.text'|translate"
+  [btnName]="'pages.Resurces.hero_section.button'|translate"
   imgsrc="https://www.kpi.com/wp-content/themes/thesaas-child/files/images/recources/recources-banner.png"
 ></app-bg-component>
 
 <section class="bg-gray-50 py-20">
   <div class="max-w-7xl mx-auto px-4">
     <h2 class="text-3xl font-bold mb-10">
-      Tavsiya etilgan resurslar
+      {{'pages.Resurces.recommended_resources.title' | translate}}
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="bg-white p-6 rounded-xl shadow">
-        <span class="text-sm text-sky-600 font-medium">Guide</span>
+        <span class="text-sm text-sky-600 font-medium">{{'pages.Resurces.recommended_resources.items.guide.type' | translate}}</span>
         <h3 class="text-lg font-semibold mt-2">
-          ERP tizimini tanlash bo‘yicha qo‘llanma
+          {{'pages.Resurces.recommended_resources.items.guide.title' | translate}}
         </h3>
         <p class="text-gray-600 mt-2 text-sm">
-          Biznesingiz uchun to‘g‘ri ERP tanlashda e’tibor berilishi kerak bo‘lgan jihatlar.
+          {{'pages.Resurces.recommended_resources.items.guide.description' | translate}}
         </p>
       </div>
 
       <div class="bg-white p-6 rounded-xl shadow">
-        <span class="text-sm text-green-600 font-medium">Case Study</span>
+        <span class="text-sm text-green-600 font-medium">{{'pages.Resurces.recommended_resources.items.case_study.type' | translate}}</span>
         <h3 class="text-lg font-semibold mt-2">
-          Qurilish kompaniyasida ERP joriy etilishi
+          {{'pages.Resurces.recommended_resources.items.case_study.title' | translate}}
         </h3>
         <p class="text-gray-600 mt-2 text-sm">
-          Haqiqiy loyiha va erishilgan natijalar bilan tanishing.
+          {{'pages.Resurces.recommended_resources.items.case_study.description' | translate}}
         </p>
       </div>
 
       <div class="bg-white p-6 rounded-xl shadow">
-        <span class="text-sm text-purple-600 font-medium">Article</span>
+        <span class="text-sm text-purple-600 font-medium">{{'pages.Resurces.recommended_resources.items.article.type' | translate}}</span>
         <h3 class="text-lg font-semibold mt-2">
-          Raqamli transformatsiya nimadan boshlanadi?
+          {{'pages.Resurces.recommended_resources.items.article.title' | translate}}    
         </h3>
         <p class="text-gray-600 mt-2 text-sm">
-          Kichik va o‘rta bizneslar uchun muhim tavsiyalar.
+          {{'pages.Resurces.recommended_resources.items.article.description' | translate}}
         </p>
       </div>
     </div>
@@ -47,13 +47,13 @@
 </section>
 <section class="py-20 text-center">
   <h2 class="text-3xl font-bold mb-4">
-    Ko‘proq bilim olishni xohlaysizmi?
+   {{"pages.Resurces.recommended_resources.subscribe.title" | translate}}
   </h2>
   <p class="text-gray-600 mb-6">
-    Yangi maqolalar va qo‘llanmalar haqida birinchilardan bo‘lib xabardor bo‘ling.
+    {{"pages.Resurces.recommended_resources.subscribe.text" | translate}}
   </p>
   <button class="px-8 py-3 bg-sky-600 text-white rounded-lg">
-    boshlash
+    {{"pages.Resurces.recommended_resources.subscribe.button" | translate}}
   </button>
 </section>
 

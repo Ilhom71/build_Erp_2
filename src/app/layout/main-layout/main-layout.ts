@@ -1,13 +1,13 @@
 import { Component, HostListener, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { MatIconModule } from '@angular/material/icon';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-main-layout',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, MatIconModule, TranslateModule],
+  imports: [RouterOutlet, RouterLink, MatIconModule, TranslateModule,CommonModule],
   templateUrl: './main-layout.html',
   styleUrls: ['./main-layout.css'],
 })

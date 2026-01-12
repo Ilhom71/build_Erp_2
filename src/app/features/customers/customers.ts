@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { BgComponent } from '../../shared/components/bg-component/bg-component';
 import { LoginCard } from '../../shared/components/login-card/login-card';
 import { MiddelwareCarusel } from '../../shared/components/middelware-carusel/middelware-carusel';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-customers',
   standalone: true,
-  imports: [BgComponent, LoginCard, MiddelwareCarusel],
+  imports: [BgComponent, LoginCard, MiddelwareCarusel,TranslateModule],
   templateUrl: './customers.html',
   styleUrl: './customers.css',
 })

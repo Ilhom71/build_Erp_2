@@ -73,7 +73,7 @@
           }
         ]
       },
-       "mid_section": {
+      "mid_section": {
         "top": "Bizning veb ilova",
         "title": "Biznesingiz muvaffaqiyatini barmoqlaringiz uchida qo‘llang",
         "text": "Endi barcha jarayonlaringizni bitta platformada boshqarishingiz mumkin: mijozlar, buyurtmalar, marketing va tahlil. Bizning ilovamiz biznesingizni tezkor va samarali rivojlantirishga yordam beradi.",
@@ -157,13 +157,39 @@
           }
         ]
       }
-      
     },
     "customers": {
       "hero_section": {
         "title": "Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qilishi mumkinligini bilib oling.",
         "text": "Dunyo bo‘ylab 50+ mamlakatda 700+ mijozimiz bizga ishonadi. Baxtli mijozlarimiz safiga qo‘shiling va biznesingizni bugunoq rivojlantiring.",
         "button": "Hozir Boshlash"
+      },
+      "middelware_section": {
+        "top": "Bizning mijozlarimiz",
+        "title": "KPI bilan dunyo bo‘ylab 700+ kompaniya samarali ishlamoqda. Bizning mijozlarimiz turli sohalarda faoliyat yuritadi: kichik startaplar, o‘rta bizneslar va yirik korporatsiyalar.",
+        "bottom_texts": {
+          "first": "Mijozlar",
+          "second": "Mamlakatlar",
+          "third": "Turli sohalar"
+        },
+        "cards_md": {
+          "card_1": {
+            "title": "Avtomatlashtirish",
+            "text": "Bizning platformamiz jarayonlarni soddalashtiradi va samaradorlikni oshiradi. Mijozlarimiz ish jarayonini tezlashtirish va xatoliklarni kamaytirish imkoniyatiga ega bo‘ladi."
+          },
+          "card_2": {
+            "title": "Global qo‘llab-quvvatlash",
+            "text": "50+ mamlakatda ishlayotgan mijozlarimiz uchun bizning jamoamiz doim yordam beradi. Har qanday savol yoki muammo tez va samarali hal qilinadi."
+          },
+          "card_3": {
+            "title": "Resurslarni boshqarish",
+            "text": "KPI yordamida resurslarni optimal tarzda taqsimlash va nazorat qilish osonlashadi. Mijozlarimiz o‘z biznesining barcha jihatlarini boshqarishda qulaylik sezadi."
+          },
+          "card_4": {
+            "title": "O‘sish va rivojlanish",
+            "text": "Mijozlarimiz KPI yordamida qaror qabul qilishni tezlashtiradi, xarajatlarni kamaytiradi va biznesini tezroq rivojlantiradi."
+          }
+        }
       }
     },
     "Resurces": {
@@ -171,6 +197,31 @@
         "title": "Bilim & Resurslar",
         "text": "ERP, biznes boshqaruvi va raqamli transformatsiya bo‘yicha qo‘llanmalar, maqolalar va amaliy tajribalar. Qaror qabul qilishda sizga yordam beradigan ishonchli va foydali manbalar.",
         "button": "Barcha resurslar"
+      },
+      "recommended_resources": {
+        "title": "Tavsiya etilgan resurslar",
+        "items": {
+          "guide": {
+            "type": "Guide",
+            "title": "ERP tizimini tanlash bo‘yicha qo‘llanma",
+            "description": "Biznesingiz uchun to‘g‘ri ERP tanlashda e’tibor berilishi kerak bo‘lgan jihatlar."
+          },
+          "case_study": {
+            "type": "Case Study",
+            "title": "Qurilish kompaniyasida ERP joriy etilishi",
+            "description": "Haqiqiy loyiha va erishilgan natijalar bilan tanishing."
+          },
+          "article": {
+            "type": "Article",
+            "title": "Raqamli transformatsiya nimadan boshlanadi?",
+            "description": "Kichik va o‘rta bizneslar uchun muhim tavsiyalar."
+          }
+        },
+        "subscribe": {
+          "title": "Ko‘proq bilim olishni xohlaysizmi?",
+          "text": "Yangi maqolalar va qo‘llanmalar haqida birinchilardan bo‘lib xabardor bo‘ling.",
+          "button": "Boshlash"
+        }
       }
     },
     "Contect": {
@@ -178,6 +229,56 @@
         "title": "Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qila olishini bilib oling.",
         "text": "Dunyoda 50 dan ortiq mamlakatda 700+ mijozlarimiz bizga ishonadi. Bizning baxtli mijozlarimiz safiga qo‘shiling va biznesingizni rivojlantiring",
         "button": "Hozir Boshlash"
+      },
+      "contact_form": {
+        "title": "Biz bilan bog‘lanish",
+        "fields": {
+          "name": "Ismingiz",
+          "email": "Email",
+          "phone": "Telefon raqam",
+          "message": "Xabaringiz"
+        },
+        "button": {
+          "submit": "Yuborish"
+        }
+      },
+      "build_erp_section": {
+        "title": "Build ERP",
+        "description": "Qurilish va biznesingizni avtomatlashtirish uchun zamonaviy ERP tizimi",
+        "features": {
+          "first": "Loyiha va ishchilar nazorati",
+          "second": "Ombor va moliya boshqaruvi",
+          "third": "Real-time hisobotlar"
+        }
+      }
+    },
+    "blog": {
+      "header": {
+        "title": "Bizning Blog",
+        "description": "Texnologiya, dasturlash va ERP tizimlari haqida foydali va sodda maqolalar"
+      },
+      "featured": {
+        "badge": "Featured",
+        "title": "ERP tizimi biznesingizni qanday o‘zgartiradi?",
+        "description": "ERP tizimlarining real biznes jarayonlariga ta’siri va samaradorlikni oshirish yo‘llari haqida.",
+        "button": "Bizga qo‘shilish"
+      },
+      "cards": {
+        "card_1": {
+          "category": "ERP",
+          "title": "Kichik biznes uchun ERP kerakmi?",
+          "description": "Kichik bizneslar ERP’dan qanday foyda olishi mumkin."
+        },
+        "card_2": {
+          "category": "Biznes",
+          "title": "Biznes jarayonlarni avtomatlashtirish",
+          "description": "Samaradorlikni oshirish uchun asosiy usullar."
+        },
+        "card_3": {
+          "category": "IT",
+          "title": "ERP xavfsizligi haqida nimalarni bilish kerak?",
+          "description": "Ma’lumotlar xavfsizligini ta’minlash bo‘yicha tavsiyalar."
+        }
       }
     }
   },
@@ -189,6 +290,53 @@
         "f_btn": "biz bilan bog‘laning",
         "s_btn": "Kirish"
       }
+    },
+    "header": {
+      "nav": {
+        "home": "Home",
+        "customers": "Customers",
+        "resources": "Resurces",
+        "contact": "Contect",
+        "blog": "Blog",
+        "cta_button": "Boshlash"
+      }
+    },
+    "footer": {
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About",
+          "careers": "Careers",
+          "brand_center": "Brand Center",
+          "blog": "Blog"
+        }
+      },
+      "help_center": {
+        "title": "Help Center",
+        "links": {
+          "discord": "Discord Server",
+          "twitter": "Twitter",
+          "facebook": "Facebook",
+          "contact": "Contact Us"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacy Policy",
+          "licensing": "Licensing",
+          "terms": "Terms & Conditions"
+        }
+      },
+      "find_us": {
+        "title": "Find Us",
+        "social": {
+          "facebook": "Facebook",
+          "linkedin": "LinkedIn",
+          "twitter": "Twitter"
+        }
+      },
+      "copyright": "© 2007 2025 KPI Software Inc"
     }
   }
 }

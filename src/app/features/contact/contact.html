@@ -1,7 +1,7 @@
 <app-bg-component 
-    title="Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qila olishini bilib oling." 
-    text="Dunyoda 50 dan ortiq mamlakatda 700+ mijozlarimiz bizga ishonadi. Bizning baxtli mijozlarimiz safiga qo‘shiling va biznesingizni rivojlantiring." 
-    btnName="Hozir Boshlash" 
+  [title]="'pages.Contect.hero_section.title'|translate"
+  [text]="'pages.Contect.hero_section.text'|translate"  
+  [btnName]="'pages.Contect.hero_section.button'|translate"
     imgsrc="https://www.kpi.com/wp-content/themes/thesaas-child/files/images/contact/contact-banner.png">
 </app-bg-component>
 
@@ -12,23 +12,23 @@
 
     <!-- LEFT INFO -->
     <div class="bg-sky-600 text-white p-10 flex flex-col justify-center">
-      <h1 class="text-4xl font-bold mb-4">Build ERP</h1>
+      <h1 class="text-4xl font-bold mb-4">{{ 'pages.Contect.build_erp_section.title' | translate }} </h1>
       <p class="text-lg opacity-90 mb-6">
-        Qurilish va biznesingizni avtomatlashtirish uchun zamonaviy ERP tizimi
+        {{ 'pages.Contect.build_erp_section.description' | translate }}
       </p>
 
       <ul class="space-y-3 text-sm">
         <li class="flex items-center gap-2">
           <span class="w-2 h-2 bg-white rounded-full"></span>
-          Loyiha va ishchilar nazorati
+          {{ 'pages.Contect.build_erp_section.features.first' | translate }}
         </li>
         <li class="flex items-center gap-2">
           <span class="w-2 h-2 bg-white rounded-full"></span>
-          Ombor va moliya boshqaruvi
+          {{ 'pages.Contect.build_erp_section.features.second' | translate }}
         </li>
         <li class="flex items-center gap-2">
           <span class="w-2 h-2 bg-white rounded-full"></span>
-          Real-time hisobotlar
+          {{ 'pages.Contect.build_erp_section.features.third' | translate }}
         </li>
       </ul>
     </div>
@@ -36,31 +36,31 @@
     <!-- RIGHT FORM -->
     <div class="p-10">
       <h1 class="text-3xl font-bold mb-6 text-gray-800">
-        Biz bilan bog‘lanish
+        {{ 'pages.Contect.contact_form.title' | translate }}
       </h1>
 
       <form class="space-y-4">
         <input
           type="text"
-          placeholder="Ismingiz"
+          [placeholder]="'pages.Contect.contact_form.fields.name' | translate"
           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
         />
 
         <input
           type="email"
-          placeholder="Email"
+          [placeholder]="'pages.Contect.contact_form.fields.email' | translate"
           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
         />
 
         <input
           type="tel"
-          placeholder="Telefon raqam"
+          [placeholder]="'pages.Contect.contact_form.fields.phone' | translate"
           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
         />
 
         <textarea
           rows="4"
-          placeholder="Xabaringiz"
+          [placeholder]="'pages.Contect.contact_form.fields.message' | translate"
           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
         ></textarea>
 
@@ -68,7 +68,7 @@
           type="submit"
           class="w-full bg-sky-600 text-white py-3 rounded-lg font-semibold hover:bg-sky-700 transition"
         >
-          Yuborish
+          {{ 'pages.Contect.contact_form.button.submit' | translate }}
         </button>
       </form>
     </div>

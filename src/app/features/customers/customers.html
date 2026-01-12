@@ -1,51 +1,51 @@
 <app-bg-component 
-  title="Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qilishi mumkinligini bilib oling." 
-  text="Dunyo bo‘ylab 50+ mamlakatda 700+ mijozimiz bizga ishonadi. Baxtli mijozlarimiz safiga qo‘shiling va biznesingizni bugunoq rivojlantiring." 
+  [title]="'pages.customers.hero_section.title'|translate"
+  [text]="'pages.customers.hero_section.text'|translate"
   imgsrc="https://www.kpi.com/wp-content/themes/thesaas-child/files/images/customers/banner.png" 
-  btnName="Hozir Boshlash">
+  [btnName]="'pages.customers.hero_section.button'|translate">
 </app-bg-component>
 <section class="customers-info bg-gray-50 py-20">
   <div class="container mx-auto px-6 lg:px-20">
     <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
-      Bizning mijozlarimiz
+      {{ 'pages.customers.middelware_section.top' | translate }}
     </h2>
     <p class="text-gray-700 text-lg mb-12 text-center max-w-2xl mx-auto">
-      KPI bilan dunyo bo‘ylab 700+ kompaniya samarali ishlamoqda. Bizning mijozlarimiz turli sohalarda faoliyat yuritadi: kichik startaplar, o‘rta bizneslar va yirik korporatsiyalar.
+      {{ 'pages.customers.middelware_section.title' | translate }}
     </p>
 
     <!-- Simple Stats -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 text-center">
       <div class="bg-white p-6 rounded-lg shadow">
         <h3 class="text-3xl font-bold text-blue-600 mb-2">700+</h3>
-        <p class="text-gray-600">Mijozlar</p>
+        <p class="text-gray-600">{{'pages.customers.middelware_section.bottom_texts.first' | translate}}</p>
       </div>
       <div class="bg-white p-6 rounded-lg shadow">
         <h3 class="text-3xl font-bold text-blue-600 mb-2">50+</h3>
-        <p class="text-gray-600">Mamlakatlar</p>
+        <p class="text-gray-600">{{'pages.customers.middelware_section.bottom_texts.second' | translate}}</p>
       </div>
       <div class="bg-white p-6 rounded-lg shadow">
         <h3 class="text-3xl font-bold text-blue-600 mb-2">10+</h3>
-        <p class="text-gray-600">Turli sohalar</p>
+        <p class="text-gray-600">{{'pages.customers.middelware_section.bottom_texts.third' | translate}}</p>
       </div>
     </div>
 
     <!-- More Information -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700">
       <div>
-        <h4 class="text-xl font-semibold mb-2">Avtomatlashtirish</h4>
-        <p>Bizning platformamiz jarayonlarni soddalashtiradi va samaradorlikni oshiradi. Mijozlarimiz ish jarayonini tezlashtirish va xatoliklarni kamaytirish imkoniyatiga ega bo‘ladi.</p>
+        <h4 class="text-xl font-semibold mb-2">{{'pages.customers.middelware_section.cards_md.card_1.title' | translate}}</h4>
+        <p>{{'pages.customers.middelware_section.cards_md.card_1.text' | translate}}</p>
       </div>
       <div>
-        <h4 class="text-xl font-semibold mb-2">Resurslarni boshqarish</h4>
-        <p>KPI yordamida resurslarni optimal tarzda taqsimlash va nazorat qilish osonlashadi. Mijozlarimiz o‘z biznesining barcha jihatlarini boshqarishda qulaylik sezadi.</p>
+        <h4 class="text-xl font-semibold mb-2">{{'pages.customers.middelware_section.cards_md.card_2.title' | translate}}</h4>
+        <p>{{'pages.customers.middelware_section.cards_md.card_2.text' | translate}}</p>
       </div>
       <div>
-        <h4 class="text-xl font-semibold mb-2">Global qo‘llab-quvvatlash</h4>
-        <p>50+ mamlakatda ishlayotgan mijozlarimiz uchun bizning jamoamiz doim yordam beradi. Har qanday savol yoki muammo tez va samarali hal qilinadi.</p>
+        <h4 class="text-xl font-semibold mb-2">{{'pages.customers.middelware_section.cards_md.card_3.title' | translate}}</h4>
+        <p>{{'pages.customers.middelware_section.cards_md.card_3.text' | translate}}</p>
       </div>
       <div>
-        <h4 class="text-xl font-semibold mb-2">O‘sish va rivojlanish</h4>
-        <p>Mijozlarimiz KPI yordamida qaror qabul qilishni tezlashtiradi, xarajatlarni kamaytiradi va biznesini tezroq rivojlantiradi.</p>
+        <h4 class="text-xl font-semibold mb-2">{{'pages.customers.middelware_section.cards_md.card_4.title' | translate}}</h4>
+        <p>{{'pages.customers.middelware_section.cards_md.card_4.text' | translate}}  </p>
       </div>
     </div>
 
