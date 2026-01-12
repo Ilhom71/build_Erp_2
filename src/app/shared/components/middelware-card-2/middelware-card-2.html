@@ -1,0 +1,32 @@
+<div class="min-h-96 bg-sky-600 rounded-xl px-4 py-8 flex items-center font-bold gap-4">
+  @if(leftSide){
+  <div>
+    <h1 class="text-2xl my-2">
+      {{ title }}
+    </h1>
+
+    <p class="text-gray-200 w-4/5">
+      {{ text }}
+    </p>
+  </div>
+
+  <div>
+    <img [src]="imgSrc" alt="Integration illustration" />
+  </div>
+  } @else {
+  <div>
+    <img [src]="imgSrc" alt="Integration illustration" />
+  </div>
+
+  <div class=" w-fit ">
+    <h1 class="text-2xl my-2 w-fit b">
+      {{ title }}
+    </h1>
+
+    <p class="text-gray-200 w-4/5 ">
+      {{ text }}
+    </p>
+  </div>
+
+  }
+</div>

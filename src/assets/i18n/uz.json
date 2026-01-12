@@ -1,0 +1,194 @@
+{
+  "pages": {
+    "home": {
+      "hero_section": {
+        "title": "Qurilish biznesingizni bitta tizimda boshqaring",
+        "text": "Ombor, loyiha, moliya va ishchilar — hammasi yagona ERP’da, real vaqtda",
+        "button": "Bepul demo ko'rish"
+      },
+      "hr": {
+        "arr": [
+          {
+            "id": 1,
+            "title": "Ombor hisobi",
+            "text": "Har bir material kirimi va chiqimi real vaqtda nazorat qilinadi",
+            "link": "#warehouse",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-1.png",
+            "active": true,
+            "iconName": "warehouse"
+          },
+          {
+            "id": 2,
+            "title": "Ishchilar oyligi",
+            "text": "Ishchilar oyligi avtomatik hisoblanadi, avans va bonuslar bilan",
+            "link": "#salary",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-2.png",
+            "active": false,
+            "iconName": "paid"
+          },
+          {
+            "id": 3,
+            "title": "Moliya nazorati",
+            "text": "Barcha xarajatlar va daromadlar real vaqtda ko‘rinadi",
+            "link": "#finance",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-3.png",
+            "active": false,
+            "iconName": "account_balance_wallet"
+          },
+          {
+            "id": 4,
+            "title": "Loyihalar boshqaruvi",
+            "text": "Har bir qurilish loyihasi alohida nazorat qilinadi",
+            "link": "#projects",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-4.png",
+            "active": false,
+            "iconName": "engineering"
+          },
+          {
+            "id": 5,
+            "title": "Hisobotlar",
+            "text": "1 klikda PDF yoki Excel formatda hisobot olish mumkin",
+            "link": "#reports",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-5.png",
+            "active": false,
+            "iconName": "insert_drive_file"
+          },
+          {
+            "id": 6,
+            "title": "Rollar va ruxsatlar",
+            "text": "Direktor, buxgalter va omborchi uchun alohida ruxsatlar",
+            "link": "#roles",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-6.png",
+            "active": false,
+            "iconName": "security"
+          },
+          {
+            "id": 7,
+            "title": "Mobil moslashuv",
+            "text": "ERP telefon va planshetda ham qulay ishlaydi",
+            "link": "#mobile",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-7.png",
+            "active": false,
+            "iconName": "smartphone"
+          }
+        ]
+      },
+       "mid_section": {
+        "top": "Bizning veb ilova",
+        "title": "Biznesingiz muvaffaqiyatini barmoqlaringiz uchida qo‘llang",
+        "text": "Endi barcha jarayonlaringizni bitta platformada boshqarishingiz mumkin: mijozlar, buyurtmalar, marketing va tahlil. Bizning ilovamiz biznesingizni tezkor va samarali rivojlantirishga yordam beradi.",
+        "mid_components": {
+          "middlewareTexts": [
+            {
+              "id": 1,
+              "component": "app-middelware-card",
+              "title": "Bizning xizmatlarimiz",
+              "text": "Biznesingizni tezkor rivojlantirish uchun barcha zarur vositalarni bitta platformada taqdim etamiz."
+            },
+            {
+              "id": 2,
+              "component": "app-middelware-card",
+              "title": "Statistik va tahlil",
+              "text": "Savdo, mijozlar va marketing jarayonlaringizni qulay va samarali tahlil qiling."
+            },
+            {
+              "id": 3,
+              "component": "app-middelware-card-2",
+              "title": "Mijozlarni qo‘llab-quvvatlash",
+              "text": "Platforma orqali mijozlaringiz bilan oson muloqot qiling va qo‘llab-quvvatlash jarayonlarini tezlashtiring."
+            },
+            {
+              "id": 4,
+              "component": "app-middelware-card-2",
+              "title": "Buyurtma va savdo boshqaruvi",
+              "text": "Barcha buyurtmalar va savdo jarayonlarini bir joydan kuzatib boring, biznesingizni samarali boshqaring."
+            }
+          ]
+        }
+      },
+
+      "faq_section": {
+        "topTitle": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "id": 1,
+            "title": "Faqat bitta KPI ilovasidan foydalanish mumkinmi yoki hammasini ishlatish kerak?",
+            "text": "Ha, KPI ilovalari bir-biri bilan uyg‘un ishlaydi va eng yaxshi natija shu bilan olinadi. Ammo siz faqat bitta ilovadan foydalanmoqchi bo‘lsangiz, o‘zingizga kerakli ilovani tanlashingiz mumkin. Savdo jamoamiz sizga qaysi ilovalar biznesingiz uchun eng mos ekanligini maslahat berishga tayyor.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 2,
+            "title": "Ilovalarning bir-biri bilan ishlashini qanday ta’minlash mumkin?",
+            "text": "Barcha KPI ilovalari o‘zaro integratsiyalashgan, shuning uchun ular birgalikda ishlaganda biznes jarayonlaringiz samaraliroq bo‘ladi. Bizning jamoamiz sizga integratsiya va sozlash bo‘yicha yordam beradi.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 3,
+            "title": "KPI ilovasini sinovdan o‘tkazish mumkinmi?",
+            "text": "Ha, siz ilovani bepul sinov muddati davomida ishlatishingiz mumkin. Bu sizga barcha funksiyalarni sinab ko‘rish va biznesingiz uchun mosligini baholash imkonini beradi.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3760063/pexels-photo-3760063.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 4,
+            "title": "Mijozlarni qo‘llab-quvvatlash qanday ishlaydi?",
+            "text": "Platforma orqali siz mijozlaringiz bilan oson muloqot qilishingiz mumkin. Savollar, shikoyatlar va maslahatlar uchun jamoamiz doim yordam beradi.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 5,
+            "title": "Buyurtmalar va savdo jarayonlarini boshqarish imkoniyati bormi?",
+            "text": "Ha, barcha buyurtmalar, savdo va hisob-kitoblarni bitta platformada kuzatib borishingiz mumkin. Bu biznesingizni samarali boshqarishga yordam beradi.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/4016847/pexels-photo-4016847.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          }
+        ]
+      }
+      
+    },
+    "customers": {
+      "hero_section": {
+        "title": "Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qilishi mumkinligini bilib oling.",
+        "text": "Dunyo bo‘ylab 50+ mamlakatda 700+ mijozimiz bizga ishonadi. Baxtli mijozlarimiz safiga qo‘shiling va biznesingizni bugunoq rivojlantiring.",
+        "button": "Hozir Boshlash"
+      }
+    },
+    "Resurces": {
+      "hero_section": {
+        "title": "Bilim & Resurslar",
+        "text": "ERP, biznes boshqaruvi va raqamli transformatsiya bo‘yicha qo‘llanmalar, maqolalar va amaliy tajribalar. Qaror qabul qilishda sizga yordam beradigan ishonchli va foydali manbalar.",
+        "button": "Barcha resurslar"
+      }
+    },
+    "Contect": {
+      "hero_section": {
+        "title": "Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qila olishini bilib oling.",
+        "text": "Dunyoda 50 dan ortiq mamlakatda 700+ mijozlarimiz bizga ishonadi. Bizning baxtli mijozlarimiz safiga qo‘shiling va biznesingizni rivojlantiring",
+        "button": "Hozir Boshlash"
+      }
+    }
+  },
+  "content": {
+    "login_card": {
+      "title": "Biznesingizni yangi darajaga ko‘tarishga tayyormisiz?",
+      "text": "Endi barcha jarayonlaringizni bitta platformada boshqarishingiz mumkin: mijozlar, savdo, marketing va qo‘llab-quvvatlash. Sizning biznesingiz uchun qulay va tezkor yechim.",
+      "button": {
+        "f_btn": "biz bilan bog‘laning",
+        "s_btn": "Kirish"
+      }
+    }
+  }
+}

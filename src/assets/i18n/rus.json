@@ -1,0 +1,192 @@
+{
+  "pages": {
+    "home": {
+      "hero_section": {
+        "title": "Управляйте своим строительным бизнесом в одной системе",
+        "text": "Склад, проект, финансы и работники — всё в единой ERP, в режиме реального времени",
+        "button": "Посмотреть бесплатную демо"
+      },
+      "hr": {
+        "arr": [
+          {
+            "id": 1,
+            "title": "Учёт склада",
+            "text": "Каждое поступление и расход материалов контролируется в реальном времени",
+            "link": "#warehouse",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-1.png",
+            "active": true,
+            "iconName": "warehouse"
+          },
+          {
+            "id": 2,
+            "title": "Зарплата рабочих",
+            "text": "Зарплата рабочих рассчитывается автоматически, с учётом авансов и бонусов",
+            "link": "#salary",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-2.png",
+            "active": false,
+            "iconName": "paid"
+          },
+          {
+            "id": 3,
+            "title": "Финансовый контроль",
+            "text": "Все расходы и доходы видны в реальном времени",
+            "link": "#finance",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-3.png",
+            "active": false,
+            "iconName": "account_balance_wallet"
+          },
+          {
+            "id": 4,
+            "title": "Управление проектами",
+            "text": "Каждый строительный проект контролируется отдельно",
+            "link": "#projects",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-4.png",
+            "active": false,
+            "iconName": "engineering"
+          },
+          {
+            "id": 5,
+            "title": "Отчёты",
+            "text": "Получайте отчёты в формате PDF или Excel одним кликом",
+            "link": "#reports",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-5.png",
+            "active": false,
+            "iconName": "insert_drive_file"
+          },
+          {
+            "id": 6,
+            "title": "Роли и разрешения",
+            "text": "Отдельные разрешения для директора, бухгалтера и кладовщика",
+            "link": "#roles",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-6.png",
+            "active": false,
+            "iconName": "security"
+          },
+          {
+            "id": 7,
+            "title": "Мобильная адаптация",
+            "text": "ERP удобно работает и на телефоне, и на планшете",
+            "link": "#mobile",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-7.png",
+            "active": false,
+            "iconName": "smartphone"
+          }
+        ]
+      },
+      "mid_section": {
+        "top": "Наше веб-приложение",
+        "title": "Управляйте успехом вашего бизнеса на кончиках пальцев",
+        "text": "Теперь вы можете управлять всеми процессами на одной платформе: клиенты, заказы, маркетинг и аналитика. Наше приложение поможет быстро и эффективно развивать ваш бизнес.",
+        "mid_components": {
+          "middlewareTexts": [
+            {
+              "id": 1,
+              "component": "app-middelware-card",
+              "title": "Наши услуги",
+              "text": "Предоставляем все необходимые инструменты на одной платформе для быстрого развития вашего бизнеса."
+            },
+            {
+              "id": 2,
+              "component": "app-middelware-card",
+              "title": "Статистика и анализ",
+              "text": "Анализируйте процессы продаж, клиентов и маркетинга удобно и эффективно."
+            },
+            {
+              "id": 3,
+              "component": "app-middelware-card-2",
+              "title": "Поддержка клиентов",
+              "text": "Легко общайтесь со своими клиентами через платформу и ускоряйте процессы поддержки."
+            },
+            {
+              "id": 4,
+              "component": "app-middelware-card-2",
+              "title": "Управление заказами и продажами",
+              "text": "Отслеживайте все заказы и процессы продаж из одного места, эффективно управляйте бизнесом."
+            }
+          ]
+        }
+      },
+      "faq_section": {
+        "topTitle": "Часто задаваемые вопросы",
+        "faqs": [
+          {
+            "id": 1,
+            "title": "Можно ли использовать только одно приложение KPI или нужно использовать все?",
+            "text": "Да, приложения KPI работают согласованно, и лучший результат достигается при их совместном использовании. Однако, если вы хотите использовать только одно приложение, вы можете выбрать нужное вам. Наша команда продаж готова проконсультировать, какие приложения наиболее подходят для вашего бизнеса.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 2,
+            "title": "Как обеспечить совместную работу приложений?",
+            "text": "Все приложения KPI интегрированы друг с другом, поэтому при совместном использовании процессы вашего бизнеса становятся более эффективными. Наша команда поможет вам с интеграцией и настройкой.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 3,
+            "title": "Можно ли протестировать приложение KPI?",
+            "text": "Да, вы можете использовать приложение в течение бесплатного пробного периода. Это позволит вам протестировать все функции и оценить их пригодность для вашего бизнеса.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3760063/pexels-photo-3760063.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 4,
+            "title": "Как работает поддержка клиентов?",
+            "text": "Через платформу вы можете легко общаться со своими клиентами. Наша команда всегда готова помочь с вопросами, жалобами и консультациями.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 5,
+            "title": "Есть ли возможность управлять заказами и процессами продаж?",
+            "text": "Да, вы можете отслеживать все заказы, продажи и расчёты на одной платформе. Это поможет эффективно управлять вашим бизнесом.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/4016847/pexels-photo-4016847.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          }
+        ]
+      }
+    },
+    "customers": {
+      "hero_section": {
+        "title": "Свяжитесь с нами сегодня и узнайте, что KPI может сделать для вашего бизнеса.",
+        "text": "Более 700 клиентов в 50+ странах мира доверяют нам. Присоединяйтесь к нашим счастливым клиентам и развивайте свой бизнес уже сегодня.",
+        "button": "Начать сейчас"
+      }
+    },
+    "Resurces": {
+      "hero_section": {
+        "title": "Знания и ресурсы",
+        "text": "Руководства, статьи и практический опыт по ERP, управлению бизнесом и цифровой трансформации. Надежные и полезные ресурсы, которые помогут вам в принятии решений.",
+        "button": "Все ресурсы"
+      }
+    },
+    "Contect": {
+      "hero_section": {
+        "title": "Свяжитесь с нами сегодня и узнайте, что KPI может сделать для вашего бизнеса.",
+        "text": "Более 700 клиентов в 50+ странах мира доверяют нам. Присоединяйтесь к нашим счастливым клиентам и развивайте свой бизнес",
+        "button": "Начать сейчас"
+      }
+    }
+  },
+  "content": {
+    "login_card": {
+      "title": "Готовы вывести свой бизнес на новый уровень?",
+      "text": "Теперь вы можете управлять всеми процессами на одной платформе: клиенты, продажи, маркетинг и поддержка. Удобное и быстрое решение для вашего бизнеса.",
+      "button": {
+        "f_btn": "связаться с нами",
+        "s_btn": "Войти"
+      }
+    }
+  }
+}

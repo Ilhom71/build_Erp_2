@@ -1,0 +1,60 @@
+<app-bg-component
+  bg_color="grey"
+  [title]=" 'pages.home.hero_section.title' | translate"
+  [text]="'pages.home.hero_section.text' | translate"
+  imgsrc="https://www.kpi.com/wp-content/themes/thesaas-child/files/gif/new-home-showcase-2.gif"
+  [btnName]="'pages.home.hero_section.button' | translate"
+>
+</app-bg-component>
+
+<app-hr></app-hr>
+<app-middelware>
+
+  <!-- TOP 2 CARDS -->
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 gap-6 my-10"
+  >
+  
+    <app-middelware-card
+      title={{cardItems[0].title}}
+      text={{cardItems[0].text}}
+      imgSrc="https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=600"
+    >
+    </app-middelware-card>
+
+    <app-middelware-card
+      title={{cardItems[1].title}}
+      text={{cardItems[1].text}}
+
+      imgSrc="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600"
+    >
+    </app-middelware-card>
+  </div>
+
+  <!-- CARD TYPE 2 -->
+  <div class="flex flex-col gap-16">
+
+    <app-middelware-card-2
+      [leftSide]="true"
+      title={{cardItems[2].title}}
+      text={{cardItems[2].text}}
+      imgSrc="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600"
+    >
+    </app-middelware-card-2>
+
+    <app-middelware-card-2
+      [leftSide]="false"
+      title={{cardItems[3].title}}
+      text={{cardItems[3].text}}
+      imgSrc="https://images.pexels.com/photos/4016847/pexels-photo-4016847.jpeg?auto=compress&cs=tinysrgb&w=600"
+    >
+    </app-middelware-card-2>
+
+  </div>
+
+</app-middelware>
+
+
+<app-login-card></app-login-card>
+<app-faq></app-faq>
+

@@ -1,0 +1,192 @@
+{
+  "pages": {
+    "home": {
+      "hero_section": {
+        "title": "Manage Your Construction Business in One System",
+        "text": "Warehouse, project, finance, and workers - all in a single ERP, in real-time",
+        "button": "View Free Demo"
+      },
+      "hr": {
+        "arr": [
+          {
+            "id": 1,
+            "title": "Warehouse Accounting",
+            "text": "Every material receipt and issue is controlled in real-time",
+            "link": "#warehouse",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-1.png",
+            "active": true,
+            "iconName": "warehouse"
+          },
+          {
+            "id": 2,
+            "title": "Workers' Salaries",
+            "text": "Workers' salaries are calculated automatically, with advances and bonuses",
+            "link": "#salary",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-2.png",
+            "active": false,
+            "iconName": "paid"
+          },
+          {
+            "id": 3,
+            "title": "Financial Control",
+            "text": "All expenses and revenues are visible in real-time",
+            "link": "#finance",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-3.png",
+            "active": false,
+            "iconName": "account_balance_wallet"
+          },
+          {
+            "id": 4,
+            "title": "Project Management",
+            "text": "Each construction project is controlled separately",
+            "link": "#projects",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-4.png",
+            "active": false,
+            "iconName": "engineering"
+          },
+          {
+            "id": 5,
+            "title": "Reports",
+            "text": "Get reports in PDF or Excel format with 1 click",
+            "link": "#reports",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-5.png",
+            "active": false,
+            "iconName": "insert_drive_file"
+          },
+          {
+            "id": 6,
+            "title": "Roles and Permissions",
+            "text": "Separate permissions for director, accountant, and warehouse keeper",
+            "link": "#roles",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-6.png",
+            "active": false,
+            "iconName": "security"
+          },
+          {
+            "id": 7,
+            "title": "Mobile Adaptation",
+            "text": "ERP works conveniently on both phone and tablet",
+            "link": "#mobile",
+            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-7.png",
+            "active": false,
+            "iconName": "smartphone"
+          }
+        ]
+      },
+      "mid_section": {
+        "top": "Our Web Application",
+        "title": "Manage Your Business Success at Your Fingertips",
+        "text": "Now you can manage all your processes on one platform: customers, orders, marketing, and analytics. Our application will help you develop your business quickly and efficiently.",
+        "mid_components": {
+          "middlewareTexts": [
+            {
+              "id": 1,
+              "component": "app-middelware-card",
+              "title": "Our Services",
+              "text": "We provide all necessary tools on one platform for rapid development of your business."
+            },
+            {
+              "id": 2,
+              "component": "app-middelware-card",
+              "title": "Statistics and Analysis",
+              "text": "Conveniently and efficiently analyze your sales, customer, and marketing processes."
+            },
+            {
+              "id": 3,
+              "component": "app-middelware-card-2",
+              "title": "Customer Support",
+              "text": "Easily communicate with your customers through the platform and accelerate support processes."
+            },
+            {
+              "id": 4,
+              "component": "app-middelware-card-2",
+              "title": "Order and Sales Management",
+              "text": "Track all orders and sales processes from one place, manage your business effectively."
+            }
+          ]
+        }
+      },
+      "faq_section": {
+        "topTitle": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "id": 1,
+            "title": "Can I use only one KPI application or do I need to use all of them?",
+            "text": "Yes, KPI applications work in harmony, and the best results are achieved when used together. However, if you only want to use one application, you can choose the one you need. Our sales team is ready to advise which applications are most suitable for your business.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 2,
+            "title": "How to ensure applications work together?",
+            "text": "All KPI applications are integrated with each other, so when used together, your business processes become more efficient. Our team will help you with integration and setup.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 3,
+            "title": "Can I test the KPI application?",
+            "text": "Yes, you can use the application during the free trial period. This allows you to test all features and evaluate their suitability for your business.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3760063/pexels-photo-3760063.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 4,
+            "title": "How does customer support work?",
+            "text": "Through the platform, you can easily communicate with your customers. Our team is always ready to help with questions, complaints, and consultations.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          },
+          {
+            "id": 5,
+            "title": "Is there an ability to manage orders and sales processes?",
+            "text": "Yes, you can track all orders, sales, and calculations on one platform. This will help you effectively manage your business.",
+            "link": "",
+            "img": "https://images.pexels.com/photos/4016847/pexels-photo-4016847.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "active": false,
+            "iconName": "none"
+          }
+        ]
+      }
+    },
+    "customers": {
+      "hero_section": {
+        "title": "Contact us today and find out what KPI can do for your business.",
+        "text": "Over 700 clients in 50+ countries worldwide trust us. Join our happy customers and develop your business today.",
+        "button": "Start Now"
+      }
+    },
+    "Resurces": {
+      "hero_section": {
+        "title": "Knowledge & Resources",
+        "text": "Manuals, articles, and practical experience on ERP, business management, and digital transformation. Reliable and useful resources to help you in decision-making.",
+        "button": "All Resources"
+      }
+    },
+    "Contect": {
+      "hero_section": {
+        "title": "Contact us today and find out what KPI can do for your business.",
+        "text": "Over 700 clients in 50+ countries worldwide trust us. Join our happy customers and develop your business",
+        "button": "Start Now"
+      }
+    }
+  },
+  "content": {
+    "login_card": {
+      "title": "Ready to take your business to the next level?",
+      "text": "Now you can manage all processes on one platform: customers, sales, marketing, and support. Convenient and fast solution for your business.",
+      "button": {
+        "f_btn": "contact us",
+        "s_btn": "Login"
+      }
+    }
+  }
+}

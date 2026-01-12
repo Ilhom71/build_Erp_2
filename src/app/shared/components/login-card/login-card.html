@@ -1,0 +1,69 @@
+<div class="min-h-screen flex justify-center items-center px-4">
+  <div
+    class="w-full max-w-6xl min-h-[80vh] bg-sky-500
+           flex flex-col items-center justify-center
+           gap-6 py-10 text-white rounded-2xl"
+  >
+    <!-- ICONS -->
+    <div
+      class="flex flex-wrap justify-center gap-2 bg-sky-400
+             rounded-md px-4 py-3"
+    >
+      <span class="icon-box bg-blue-500">
+        <mat-icon fontIcon="home"></mat-icon>
+      </span>
+      <span class="icon-box bg-green-500">
+        <mat-icon fontIcon="trending_up"></mat-icon>
+      </span>
+      <span class="icon-box bg-yellow-500">
+        <mat-icon fontIcon="support"></mat-icon>
+      </span>
+      <span class="icon-box bg-purple-500">
+        <mat-icon fontIcon="shopping_cart"></mat-icon>
+      </span>
+      <span class="icon-box bg-red-500">
+        <mat-icon fontIcon="analytics"></mat-icon>
+      </span>
+    </div>
+
+    <!-- TITLE -->
+    <h1
+      class="text-3xl sm:text-4xl md:text-5xl
+             text-center font-bold leading-tight px-2"
+    >
+      {{'content.login_card.title' | translate}}
+    </h1>
+
+    <!-- DESCRIPTION -->
+    <p
+      class="text-center text-base sm:text-lg text-gray-200
+             max-w-2xl px-4"
+    >
+     {{'content.login_card.text' | translate}}
+    </p>
+
+    <!-- BUTTONS -->
+    <div
+      class="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto px-6"
+    >
+      <button
+        class="w-full sm:w-auto px-8 py-3 rounded-sm
+               bg-white text-gray-900 font-semibold
+               hover:bg-sky-700 hover:text-white
+               transition shadow-lg"
+      >
+       {{'content.login_card.button.f_btn' | translate}}
+      </button>
+
+      <button
+        class="w-full sm:w-auto px-8 py-3 rounded-sm
+               border border-white/30 text-white font-medium
+               hover:bg-white hover:text-gray-900
+               transition min-w-40"
+        routerLink="/auth"
+      >
+        {{'content.login_card.button.s_btn' | translate}}
+      </button>
+    </div>
+  </div>
+</div>
