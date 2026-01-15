@@ -3,12 +3,17 @@
 @use 'tailwindcss';
 /* Scroll bo‘lganda header */
 .color_web {
-  background-color: #F5B301; /* asosiy sariq */
+  background-color: #081257; /* asosiy sariq */
  
 }
 
 /* Scroll bo‘lmaganda header */
 .color_web_2 {
-  background-color: rgba(245, 180, 1, 0.781); /* yengil sariq */
+  background-color: #0813576a; /* yengil sariq */
                              /* oq text */
+}
+
+
+.component_color{
+  background-color: #FD4C12; /* asosiy sariq */
 }

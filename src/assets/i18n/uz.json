@@ -2,156 +2,155 @@
   "pages": {
     "home": {
       "hero_section": {
-        "title": "Qurilish biznesingizni bitta tizimda boshqaring",
-        "text": "Ombor, loyiha, moliya va ishchilar — hammasi yagona ERP’da, real vaqtda",
+        "title": "Qurilish loyihalaringizni bitta tizimda boshqaring",
+        "text": "Materiallar, ishchilar, loyiha byudjeti va moliya — hammasi yagona Build ERP'da, real vaqt rejimida",
         "button": "Bepul demo ko'rish"
       },
       "hr": {
         "arr": [
           {
             "id": 1,
-            "title": "Ombor hisobi",
-            "text": "Har bir material kirimi va chiqimi real vaqtda nazorat qilinadi",
+            "title": "Materiallar ombori",
+            "text": "Har bir qurilish materialining kirim-chiqimi aniq va real vaqtda nazorat qilinadi",
             "link": "#warehouse",
-            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-1.png",
+            "img": "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=600&auto=format",
             "active": true,
             "iconName": "warehouse"
           },
           {
             "id": 2,
-            "title": "Ishchilar oyligi",
-            "text": "Ishchilar oyligi avtomatik hisoblanadi, avans va bonuslar bilan",
+            "title": "Ish haqi hisobi",
+            "text": "Ishchilar, ustalar, muhandislar oyligi avtomatik hisoblanadi, avans va bonuslar bilan",
             "link": "#salary",
-            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-2.png",
+            "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&auto=format",
             "active": false,
             "iconName": "paid"
           },
           {
             "id": 3,
-            "title": "Moliya nazorati",
-            "text": "Barcha xarajatlar va daromadlar real vaqtda ko‘rinadi",
+            "title": "Loyiha moliyasi",
+            "text": "Har bir loyiha byudjeti, xarajatlar va to'lovlar alohida kuzatiladi",
             "link": "#finance",
-            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-3.png",
+            "img": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&auto=format",
             "active": false,
             "iconName": "account_balance_wallet"
           },
           {
             "id": 4,
-            "title": "Loyihalar boshqaruvi",
-            "text": "Har bir qurilish loyihasi alohida nazorat qilinadi",
+            "title": "Loyihalar monitoringi",
+            "text": "Har bir qurilish ob'ekti uchun progress, vazifalar va muddatlar nazorati",
             "link": "#projects",
-            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-4.png",
+            "img": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&auto=format",
             "active": false,
             "iconName": "engineering"
           },
           {
             "id": 5,
-            "title": "Hisobotlar",
-            "text": "1 klikda PDF yoki Excel formatda hisobot olish mumkin",
+            "title": "Qurilish hisobotlari",
+            "text": "1 klikda PDF yoki Excel formatda loyiha, xarajat va ish haqi hisobotlari",
             "link": "#reports",
-            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-5.png",
+            "img": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=600&auto=format",
             "active": false,
             "iconName": "insert_drive_file"
           },
           {
             "id": 6,
-            "title": "Rollar va ruxsatlar",
-            "text": "Direktor, buxgalter va omborchi uchun alohida ruxsatlar",
+            "title": "Rollar tizimi",
+            "text": "Direktor, loyiha menejeri, buxgalter, omborchi uchun alohida ruxsatlar",
             "link": "#roles",
-            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-6.png",
+            "img": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&auto=format",
             "active": false,
             "iconName": "security"
           },
           {
             "id": 7,
-            "title": "Mobil moslashuv",
-            "text": "ERP telefon va planshetda ham qulay ishlaydi",
+            "title": "Mobil qurilish nazorati",
+            "text": "ERP qurilish maydonchasida ham telefon va planshetda ishlaydi",
             "link": "#mobile",
-            "img": "https://www.kpi.com/wp-content/themes/thesaas-child/files/images/home-img/service-images/ser-7.png",
+            "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&auto=format",
             "active": false,
             "iconName": "smartphone"
           }
         ]
       },
       "mid_section": {
-        "top": "Bizning veb ilova",
-        "title": "Biznesingiz muvaffaqiyatini barmoqlaringiz uchida qo‘llang",
-        "text": "Endi barcha jarayonlaringizni bitta platformada boshqarishingiz mumkin: mijozlar, buyurtmalar, marketing va tahlil. Bizning ilovamiz biznesingizni tezkor va samarali rivojlantirishga yordam beradi.",
+        "top": "Build ERP - Qurilish ERP tizimi",
+        "title": "Qurilish biznesingizni barmoqlaringiz uchida boshqaring",
+        "text": "Endi barcha qurilish jarayonlaringizni bitta platformada boshqarishingiz mumkin: loyihalar, materiallar, xodimlar va moliya. Build ERP qurilish kompaniyangizni aniq va samarali boshqarishga yordam beradi.",
         "mid_components": {
           "middlewareTexts": [
             {
               "id": 1,
               "component": "app-middelware-card",
-              "title": "Bizning xizmatlarimiz",
-              "text": "Biznesingizni tezkor rivojlantirish uchun barcha zarur vositalarni bitta platformada taqdim etamiz."
+              "title": "Loyiha boshqaruvi",
+              "text": "Qurilish loyihalaringizni rejalashtirish, monitoring qilish va nazorat qilish uchun barcha zarur vositalar."
             },
             {
               "id": 2,
               "component": "app-middelware-card",
-              "title": "Statistik va tahlil",
-              "text": "Savdo, mijozlar va marketing jarayonlaringizni qulay va samarali tahlil qiling."
+              "title": "Xarajatlar tahlili",
+              "text": "Material, ish haqi va boshqa xarajatlarni loyiha bo'yicha aniq tahlil qiling."
             },
             {
               "id": 3,
               "component": "app-middelware-card-2",
-              "title": "Mijozlarni qo‘llab-quvvatlash",
-              "text": "Platforma orqali mijozlaringiz bilan oson muloqot qiling va qo‘llab-quvvatlash jarayonlarini tezlashtiring."
+              "title": "Materiallar ta'minoti",
+              "text": "Yetkazib beruvchilar bilan shartnomalar, buyurtmalar va ombor balansini boshqaring."
             },
             {
               "id": 4,
               "component": "app-middelware-card-2",
-              "title": "Buyurtma va savdo boshqaruvi",
-              "text": "Barcha buyurtmalar va savdo jarayonlarini bir joydan kuzatib boring, biznesingizni samarali boshqaring."
+              "title": "Ishchi resurslari",
+              "text": "Xodimlar ish soati, ish haqi va loyihaga biriktirishni avtomatlashtiring."
             }
           ]
         }
       },
-
       "faq_section": {
-        "topTitle": "Frequently Asked Questions",
+        "topTitle": "Tez-tez So'raladigan Savollar",
         "faqs": [
           {
             "id": 1,
-            "title": "Faqat bitta KPI ilovasidan foydalanish mumkinmi yoki hammasini ishlatish kerak?",
-            "text": "Ha, KPI ilovalari bir-biri bilan uyg‘un ishlaydi va eng yaxshi natija shu bilan olinadi. Ammo siz faqat bitta ilovadan foydalanmoqchi bo‘lsangiz, o‘zingizga kerakli ilovani tanlashingiz mumkin. Savdo jamoamiz sizga qaysi ilovalar biznesingiz uchun eng mos ekanligini maslahat berishga tayyor.",
+            "title": "Build ERP faqat yirik qurilish kompaniyalari uchunmi?",
+            "text": "Yo'q. Build ERP kichik, o'rta va yirik qurilish kompaniyalari, shaxsiy quruvchilar hamda pudratchilar uchun mo'ljallangan. Loyiha hajmiga qarab moslashtirish imkoniyati mavjud.",
             "link": "",
-            "img": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "img": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&auto=format",
             "active": false,
             "iconName": "none"
           },
           {
             "id": 2,
-            "title": "Ilovalarning bir-biri bilan ishlashini qanday ta’minlash mumkin?",
-            "text": "Barcha KPI ilovalari o‘zaro integratsiyalashgan, shuning uchun ular birgalikda ishlaganda biznes jarayonlaringiz samaraliroq bo‘ladi. Bizning jamoamiz sizga integratsiya va sozlash bo‘yicha yordam beradi.",
+            "title": "Build ERP qurilish maydonchasida ofissiz internet bo'lmaganda ishlaydimi?",
+            "text": "Ha. Build ERP oflayn rejimda ishlaydi va internet ulanganida ma'lumotlarni avtomatik sinxronlashtiradi. Bu qurilish maydonlarida doimiy internet bo'lmasa ham ishlash imkonini beradi.",
             "link": "",
-            "img": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "img": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format",
             "active": false,
             "iconName": "none"
           },
           {
             "id": 3,
-            "title": "KPI ilovasini sinovdan o‘tkazish mumkinmi?",
-            "text": "Ha, siz ilovani bepul sinov muddati davomida ishlatishingiz mumkin. Bu sizga barcha funksiyalarni sinab ko‘rish va biznesingiz uchun mosligini baholash imkonini beradi.",
+            "title": "Build ERP ni sinab ko'rish imkoniyati bormi?",
+            "text": "Ha. Build ERP ni 14 kun bepul sinov muddati davomida to'liq funksionallik bilan sinab ko'rishingiz mumkin. Bu vaqtda texnik qo'llab-quvvat ham taqdim etiladi.",
             "link": "",
-            "img": "https://images.pexels.com/photos/3760063/pexels-photo-3760063.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "img": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&auto=format",
             "active": false,
             "iconName": "none"
           },
           {
             "id": 4,
-            "title": "Mijozlarni qo‘llab-quvvatlash qanday ishlaydi?",
-            "text": "Platforma orqali siz mijozlaringiz bilan oson muloqot qilishingiz mumkin. Savollar, shikoyatlar va maslahatlar uchun jamoamiz doim yordam beradi.",
+            "title": "Tayyor SMS-xabarnomalar bormi? (material tugashi, to'lovlar va h.k.)",
+            "text": "Ha. Build ERP da materiallar tugash arafasida, ish haqi to'lov kuni, loyiha muddati yaqinlashganda va boshqa muhim voqealar haqida avtomatik SMS-xabarnomalar jo'natish tizimi mavjud.",
             "link": "",
-            "img": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "img": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&auto=format",
             "active": false,
             "iconName": "none"
           },
           {
             "id": 5,
-            "title": "Buyurtmalar va savdo jarayonlarini boshqarish imkoniyati bormi?",
-            "text": "Ha, barcha buyurtmalar, savdo va hisob-kitoblarni bitta platformada kuzatib borishingiz mumkin. Bu biznesingizni samarali boshqarishga yordam beradi.",
+            "title": "Bir nechta loyihani bir vaqtda boshqarish imkoniyati bormi?",
+            "text": "Albatta. Build ERP da cheksiz sonli loyihalar yaratish va ularni alohida byudjet, xodimlar va materiallar bilan boshqarish mumkin. Barchasi bir interfeysda.",
             "link": "",
-            "img": "https://images.pexels.com/photos/4016847/pexels-photo-4016847.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "img": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&auto=format",
             "active": false,
             "iconName": "none"
           }
@@ -160,184 +159,184 @@
     },
     "customers": {
       "hero_section": {
-        "title": "Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qilishi mumkinligini bilib oling.",
-        "text": "Dunyo bo‘ylab 50+ mamlakatda 700+ mijozimiz bizga ishonadi. Baxtli mijozlarimiz safiga qo‘shiling va biznesingizni bugunoq rivojlantiring.",
-        "button": "Hozir Boshlash"
+        "title": "Build ERP bilan qurilish biznesingizni avtomatlashtiring",
+        "text": "O'zbekiston bo'ylab 100+ qurilish kompaniyasi va pudratchi bizga ishonadi. Siz ham ulardan biri bo'ling va biznesingiz samaradorligini oshiring.",
+        "button": "Demo So'rov Yuborish"
       },
       "middelware_section": {
         "top": "Bizning mijozlarimiz",
-        "title": "KPI bilan dunyo bo‘ylab 700+ kompaniya samarali ishlamoqda. Bizning mijozlarimiz turli sohalarda faoliyat yuritadi: kichik startaplar, o‘rta bizneslar va yirik korporatsiyalar.",
+        "title": "Build ERP yordamida qurilish kompaniyalari loyiha byudjetini 25%, vaqtni 30% tejashmoqda. Mijozlarimiz orasida turar-joy, infratuzilma, sanoat qurilishi bilan shug'ullanuvchi kompaniyalar bor.",
         "bottom_texts": {
-          "first": "Mijozlar",
-          "second": "Mamlakatlar",
-          "third": "Turli sohalar"
+          "first": "Qurilish Kompaniyalari",
+          "second": "Muvaffaqiyatli Loyihalar",
+          "third": "Tejalgan Soatlar"
         },
         "cards_md": {
           "card_1": {
-            "title": "Avtomatlashtirish",
-            "text": "Bizning platformamiz jarayonlarni soddalashtiradi va samaradorlikni oshiradi. Mijozlarimiz ish jarayonini tezlashtirish va xatoliklarni kamaytirish imkoniyatiga ega bo‘ladi."
+            "title": "Loyiha Byudjeti Nazorati",
+            "text": "Har bir loyiha xarajatlarini aniq kuzating va byudjetdan oshib ketish oldini oling. Mijozlarimiz xarajatlarni 15-25% kamaytirishga erishdilar."
           },
           "card_2": {
-            "title": "Global qo‘llab-quvvatlash",
-            "text": "50+ mamlakatda ishlayotgan mijozlarimiz uchun bizning jamoamiz doim yordam beradi. Har qanday savol yoki muammo tez va samarali hal qilinadi."
+            "title": "Materiallar Hisobi",
+            "text": "Ombordagi har bir material, uning narxi, sarflanish darajasi haqida real vaqt ma'lumotlari. Zahirada tugash va ortiqcha xaridning oldini olish."
           },
           "card_3": {
-            "title": "Resurslarni boshqarish",
-            "text": "KPI yordamida resurslarni optimal tarzda taqsimlash va nazorat qilish osonlashadi. Mijozlarimiz o‘z biznesining barcha jihatlarini boshqarishda qulaylik sezadi."
+            "title": "Ishchi Usti Nazorati",
+            "text": "Har bir ishchining qaysi loyihada, qancha ishlaganini kuzating. Ish haqi avtomatik hisob-kitobi va SMS-xabarnomalar."
           },
           "card_4": {
-            "title": "O‘sish va rivojlanish",
-            "text": "Mijozlarimiz KPI yordamida qaror qabul qilishni tezlashtiradi, xarajatlarni kamaytiradi va biznesini tezroq rivojlantiradi."
+            "title": "Hisobotlar va Analitika",
+            "text": "Loyiha rentabelligi, xodimlar unumdorligi, materiallar sarfi bo'yicha bir klikda tayyor hisobotlar. Qarorlarni dalillarga asoslang."
           }
         }
       }
     },
     "Resurces": {
       "hero_section": {
-        "title": "Bilim & Resurslar",
-        "text": "ERP, biznes boshqaruvi va raqamli transformatsiya bo‘yicha qo‘llanmalar, maqolalar va amaliy tajribalar. Qaror qabul qilishda sizga yordam beradigan ishonchli va foydali manbalar.",
-        "button": "Barcha resurslar"
+        "title": "Qurilish Boshqaruvi Bilimi",
+        "text": "Qurilish ERP si, loyiha boshqaruvi, byudjetlashtirish va qurilish logistikasi bo'yicha amaliy qo'llanmalar, maqolalar va holatlar tahllili.",
+        "button": "Barcha Resurslar"
       },
       "recommended_resources": {
-        "title": "Tavsiya etilgan resurslar",
+        "title": "Qurilish Menejerlari uchun",
         "items": {
           "guide": {
-            "type": "Guide",
-            "title": "ERP tizimini tanlash bo‘yicha qo‘llanma",
-            "description": "Biznesingiz uchun to‘g‘ri ERP tanlashda e’tibor berilishi kerak bo‘lgan jihatlar."
+            "type": "Qo'llanma",
+            "title": "Qurilish ERP tizimini joriy etish: bosqichma-bosqich ko'rsatma",
+            "description": "Qurilish kompaniyangizda ERP tizimini muvaffaqiyatli joriy etishning 7 bosqichi."
           },
           "case_study": {
-            "type": "Case Study",
-            "title": "Qurilish kompaniyasida ERP joriy etilishi",
-            "description": "Haqiqiy loyiha va erishilgan natijalar bilan tanishing."
+            "type": "Holat Tahllili",
+            "title": "'Shahar Quruvchi' MCHJ da Build ERP joriy etilishi",
+            "description": "3 oy ichida loyiha xarajatlari 22% qisqartirildi, hisobot vaqtlari 8 soatdan 30 daqiqaga tushdi."
           },
           "article": {
-            "type": "Article",
-            "title": "Raqamli transformatsiya nimadan boshlanadi?",
-            "description": "Kichik va o‘rta bizneslar uchun muhim tavsiyalar."
+            "type": "Maqola",
+            "title": "Qurilishda materiallarni tejashning 10 usuli",
+            "description": "Build ERP yordamida qurilish materiallarini optimal sarflash va chiqindilarni kamaytirish."
           }
         },
         "subscribe": {
-          "title": "Ko‘proq bilim olishni xohlaysizmi?",
-          "text": "Yangi maqolalar va qo‘llanmalar haqida birinchilardan bo‘lib xabardor bo‘ling.",
-          "button": "Boshlash"
+          "title": "Qurilish boshqaruvi bo'yicha yangiliklar",
+          "text": "Yangi maqolalar, vebinarlar va qo'llanmalar haqida birinchilardan bo'lib xabardor bo'ling.",
+          "button": "Obuna Bo'lish"
         }
       }
     },
     "Contect": {
       "hero_section": {
-        "title": "Bugun biz bilan bog‘laning va KPI sizning biznesingiz uchun nima qila olishini bilib oling.",
-        "text": "Dunyoda 50 dan ortiq mamlakatda 700+ mijozlarimiz bizga ishonadi. Bizning baxtli mijozlarimiz safiga qo‘shiling va biznesingizni rivojlantiring",
-        "button": "Hozir Boshlash"
+        "title": "Build ERP haqida batafsil ma'lumot oling",
+        "text": "Qurilish biznesingizni qanday avtomatlashtirish va samaradorligini oshirish mumkinligini bilib oling. Bizning mutaxassislarimiz sizga shaxsiy maslahat berishadi.",
+        "button": "Murojaat Qilish"
       },
       "contact_form": {
-        "title": "Biz bilan bog‘lanish",
+        "title": "Build ERP Demo So'rovi",
         "fields": {
           "name": "Ismingiz",
           "email": "Email",
           "phone": "Telefon raqam",
-          "message": "Xabaringiz"
+          "company": "Qurilish Kompaniyasi Nomi",
+          "message": "Qiziqish bildirgan masalangiz (loyiha boshqaruvi, ombor, moliya va h.k.)"
         },
         "button": {
-          "submit": "Yuborish"
+          "submit": "Demo So'rovni Yuborish"
         }
       },
       "build_erp_section": {
         "title": "Build ERP",
-        "description": "Qurilish va biznesingizni avtomatlashtirish uchun zamonaviy ERP tizimi",
+        "description": "Qurilish va qurilish-logistika biznesini avtomatlashtirish uchun maxsus ishlab chiqilgan ERP tizimi",
         "features": {
-          "first": "Loyiha va ishchilar nazorati",
-          "second": "Ombor va moliya boshqaruvi",
-          "third": "Real-time hisobotlar"
+          "first": "Loyiha, ishchi va texnika nazorati",
+          "second": "Materiallar ombori va moliya boshqaruvi",
+          "third": "Real vaqt rejimida qurilish hisobotlari"
         }
       }
     },
     "blog": {
       "header": {
-        "title": "Bizning Blog",
-        "description": "Texnologiya, dasturlash va ERP tizimlari haqida foydali va sodda maqolalar"
+        "title": "Qurilish Boshqaruvi Blogi",
+        "description": "Qurilish ERP si, loyiha menejmenti, qurilish iqtisodiyoti va texnologiyalari haqida amaliy maqolalar"
       },
       "featured": {
-        "badge": "Featured",
-        "title": "ERP tizimi biznesingizni qanday o‘zgartiradi?",
-        "description": "ERP tizimlarining real biznes jarayonlariga ta’siri va samaradorlikni oshirish yo‘llari haqida.",
-        "button": "Bizga qo‘shilish"
+        "badge": "Tavsiya etiladi",
+        "title": "2025 yil: Qurilish sanoati raqamli transformatsiyasi",
+        "description": "Qurilish kompaniyalari qanday texnologiyalar yordamida xarajatlarni kamaytirib, raqobatdoshligini oshiradi.",
+        "button": "Maqolani O'qish"
       },
       "cards": {
         "card_1": {
           "category": "ERP",
-          "title": "Kichik biznes uchun ERP kerakmi?",
-          "description": "Kichik bizneslar ERP’dan qanday foyda olishi mumkin."
+          "title": "Kichik qurilish firmasi uchun ERP - kerakmi?",
+          "description": "3 ta loyihadan boshlab ERP tizimi foydasi haqida real misollar."
         },
         "card_2": {
-          "category": "Biznes",
-          "title": "Biznes jarayonlarni avtomatlashtirish",
-          "description": "Samaradorlikni oshirish uchun asosiy usullar."
+          "category": "Boshqaruv",
+          "title": "Qurilishda ishchi unumdorligini oshirish",
+          "text": "Build ERP yordamida ishchilar mehnatini qanday aniq o'lchash va rag'batlantirish mumkin."
         },
         "card_3": {
-          "category": "IT",
-          "title": "ERP xavfsizligi haqida nimalarni bilish kerak?",
-          "description": "Ma’lumotlar xavfsizligini ta’minlash bo‘yicha tavsiyalar."
+          "category": "Xavfsizlik",
+          "title": "Qurilish maydonida ma'lumotlar xavfsizligi",
+          "description": "Cloud va on-premise ERP tizimlarida ma'lumotlarni himoya qilish usullari."
         }
       }
     }
   },
   "content": {
     "login_card": {
-      "title": "Biznesingizni yangi darajaga ko‘tarishga tayyormisiz?",
-      "text": "Endi barcha jarayonlaringizni bitta platformada boshqarishingiz mumkin: mijozlar, savdo, marketing va qo‘llab-quvvatlash. Sizning biznesingiz uchun qulay va tezkor yechim.",
+      "title": "Qurilish biznesingizni avtomatlashtirishga tayyormisiz?",
+      "text": "Endi barcha qurilish jarayonlaringizni bitta platformada boshqarishingiz mumkin: loyihalar, materiallar, xodimlar va moliya. Build ERP sizning qurilish kompaniyangiz uchun qulay va samarali yechim.",
       "button": {
-        "f_btn": "biz bilan bog‘laning",
-        "s_btn": "Kirish"
+        "f_btn": "demo so'rov yuborish",
+        "s_btn": "Tizimga Kirish"
       }
     },
-   "header": {
-    "nav": {
-      "home": "Bosh sahifa",
-      "customers": "Mijozlar",
-      "resources": "Resurslar",
-      "contact": "Aloqa",
-      "blog": "Blog",
-      "cta_button": "Boshlash"
+    "header": {
+      "nav": {
+        "home": "Bosh sahifa",
+        "customers": "Mijozlarimiz",
+        "resources": "Resurslar",
+        "contact": "Demo So'rov",
+        "blog": "Blog",
+        "cta_button": "Build ERP ni Sinab Ko'rish"
+      }
+    },
+    "footer": {
+      "company": {
+        "title": "Build ERP",
+        "links": {
+          "about": "Biz haqimizda",
+          "careers": "Karyera",
+          "demo": "Onlayn Demo",
+          "blog": "Qurilish Blogi"
+        }
+      },
+      "help_center": {
+        "title": "Qo'llab-quvvatlash",
+        "links": {
+          "docs": "Foydalanuvchi Qo'llanmasi",
+          "tutorials": "Video Darslar",
+          "contact": "Texnik Yordam",
+          "whatsapp": "WhatsApp Yordam"
+        }
+      },
+      "legal": {
+        "title": "Huquqiy",
+        "links": {
+          "privacy": "Maxfiylik siyosati",
+          "licensing": "Litsenziya shartnomasi",
+          "terms": "Foydalanish shartlari"
+        }
+      },
+      "find_us": {
+        "title": "Biz Bilan Bog'laning",
+        "social": {
+          "telegram": "Telegram Kanal",
+          "linkedin": "LinkedIn",
+          "youtube": "YouTube"
+        }
+      },
+      "copyright": "© 2020-2025 Build ERP. Barcha huquqlar himoyalangan."
     }
-  },
-      "footer": {
-    "company": {
-      "title": "Kompaniya",
-      "links": {
-        "about": "Biz haqimizda",
-        "careers": "Karyera",
-        "brand_center": "Brend markazi",
-        "blog": "Blog"
-      }
-    },
-    "help_center": {
-      "title": "Yordam markazi",
-      "links": {
-        "discord": "Discord serveri",
-        "twitter": "Twitter",
-        "facebook": "Facebook",
-        "contact": "Biz bilan bog‘laning"
-      }
-    },
-    "legal": {
-      "title": "Huquqiy",
-      "links": {
-        "privacy": "Maxfiylik siyosati",
-        "licensing": "Litsenziya",
-        "terms": "Foydalanish shartlari"
-      }
-    },
-    "find_us": {
-      "title": "Bizni toping",
-      "social": {
-        "facebook": "Facebook",
-        "linkedin": "LinkedIn",
-        "twitter": "Twitter"
-      }
-    },
-    "copyright": "© 2007–2025 KPI Software Inc"
-  }
-  
   }
 }
