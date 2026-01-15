@@ -291,52 +291,53 @@
         "s_btn": "Kirish"
       }
     },
-    "header": {
-      "nav": {
-        "home": "Home",
-        "customers": "Customers",
-        "resources": "Resurces",
-        "contact": "Contect",
-        "blog": "Blog",
-        "cta_button": "Boshlash"
+   "header": {
+    "nav": {
+      "home": "Bosh sahifa",
+      "customers": "Mijozlar",
+      "resources": "Resurslar",
+      "contact": "Aloqa",
+      "blog": "Blog",
+      "cta_button": "Boshlash"
+    }
+  },
+      "footer": {
+    "company": {
+      "title": "Kompaniya",
+      "links": {
+        "about": "Biz haqimizda",
+        "careers": "Karyera",
+        "brand_center": "Brend markazi",
+        "blog": "Blog"
       }
     },
-    "footer": {
-      "company": {
-        "title": "Company",
-        "links": {
-          "about": "About",
-          "careers": "Careers",
-          "brand_center": "Brand Center",
-          "blog": "Blog"
-        }
-      },
-      "help_center": {
-        "title": "Help Center",
-        "links": {
-          "discord": "Discord Server",
-          "twitter": "Twitter",
-          "facebook": "Facebook",
-          "contact": "Contact Us"
-        }
-      },
-      "legal": {
-        "title": "Legal",
-        "links": {
-          "privacy": "Privacy Policy",
-          "licensing": "Licensing",
-          "terms": "Terms & Conditions"
-        }
-      },
-      "find_us": {
-        "title": "Find Us",
-        "social": {
-          "facebook": "Facebook",
-          "linkedin": "LinkedIn",
-          "twitter": "Twitter"
-        }
-      },
-      "copyright": "© 2007 2025 KPI Software Inc"
-    }
+    "help_center": {
+      "title": "Yordam markazi",
+      "links": {
+        "discord": "Discord serveri",
+        "twitter": "Twitter",
+        "facebook": "Facebook",
+        "contact": "Biz bilan bog‘laning"
+      }
+    },
+    "legal": {
+      "title": "Huquqiy",
+      "links": {
+        "privacy": "Maxfiylik siyosati",
+        "licensing": "Litsenziya",
+        "terms": "Foydalanish shartlari"
+      }
+    },
+    "find_us": {
+      "title": "Bizni toping",
+      "social": {
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter"
+      }
+    },
+    "copyright": "© 2007–2025 KPI Software Inc"
+  }
+  
   }
 }
