@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'tailwindcss';
 @use 'tailwindcss';
-.color_web{
-    background-color: #F5B301!important;
-    /* color: #111827; */
+/* Scroll bo‘lganda header */
+.color_web {
+  background-color: #F5B301; /* asosiy sariq */
+ 
+}
+
+/* Scroll bo‘lmaganda header */
+.color_web_2 {
+  background-color: rgba(245, 180, 1, 0.781); /* yengil sariq */
+                             /* oq text */
 }
