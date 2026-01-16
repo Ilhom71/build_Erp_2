@@ -1,4 +1,4 @@
-<div class="carousel-wrapper my-20 h-40 bg-gray-200 overflow-hidden">
+<div class="carousel-wrapper my-20 h-60 color_web overflow-hidden">
   <div
     class="h-full flex items-center"
     #carouselTrack
@@ -7,9 +7,9 @@
   >
     @for(card of allCards; track $index) {
     <div
-      class="carousel-card mx-4 py-5 px-6 rounded-xl bg-white flex-shrink-0 flex justify-center items-center"
+      class="carousel-card mx-1  bg-white flex-shrink-0 flex justify-center items-center"
     >
-      <img [src]="card.logo" [alt]="card.name" class=" object-contain h-[40px]" />
+      <img [src]="card.logo" [alt]="card.name" class="  h-full w-full" />
     </div>
     }
   </div>

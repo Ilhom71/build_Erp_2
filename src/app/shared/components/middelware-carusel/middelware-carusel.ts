@@ -15,35 +15,35 @@ export class MiddelwareCarusel implements OnInit, OnDestroy, AfterViewInit {
 cards: any[] = [
   { 
     name: 'Budget', 
-    logo: 'https://img.icons8.com/fluency/96/000000/money-bag.png'
+    logo: 'assets/images/build/biuld_erp_imgs (1).jpeg'
   },
   { 
     name: 'Team', 
-    logo: 'https://img.icons8.com/fluency/96/000000/conference.png'
+    logo: 'assets/images/build/biuld_erp_imgs (11).jpg'
   },
   { 
     name: 'Stock', 
-    logo: 'https://img.icons8.com/fluency/96/000000/package.png'
-  },
+      logo: 'assets/images/build/biuld_erp_imgs (10).jpg'
+    },
   { 
     name: 'Deals', 
-    logo: 'https://img.icons8.com/fluency/96/000000/sales-performance.png'
+    logo: 'assets/images/build/biuld_erp_imgs (9).jpg'
   },
   { 
     name: 'Orders', 
-    logo: 'https://img.icons8.com/fluency/96/000000/purchase-order.png'
+   logo: 'assets/images/build/biuld_erp_imgs (8).jpg'
   },
   { 
     name: 'Factory', 
-    logo: 'https://img.icons8.com/fluency/96/000000/factory.png'
+    logo: 'assets/images/build/biuld_erp_imgs (7).jpg'
   },
   { 
     name: 'Taxes', 
-    logo: 'https://img.icons8.com/fluency/96/000000/accounting.png'
+    logo: 'assets/images/build/biuld_erp_imgs (6).jpg'
   },
   { 
     name: 'Charts', 
-    logo: 'https://img.icons8.com/fluency/96/000000/combo-chart.png'
+    logo: 'assets/images/build/biuld_erp_imgs (5).jpg'
   }
 ];
 

@@ -9,6 +9,7 @@ import { Faq } from '../../shared/components/faq/faq';
 import { TranslateModule, TranslateService,LangChangeEvent } from '@ngx-translate/core';
 import {  OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
+import { MiddelwareCarusel } from '../../shared/components/middelware-carusel/middelware-carusel';
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -17,10 +18,10 @@ import { Subscription } from 'rxjs';
     Hr,
     Middelware,
     MiddelwareCard,
-    MiddelwareCard2,
     LoginCard,
     Faq,
     TranslateModule,
+    MiddelwareCarusel
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',

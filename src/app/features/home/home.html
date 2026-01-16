@@ -12,13 +12,13 @@
 
   <!-- TOP 2 CARDS -->
   <div
-    class="grid grid-cols-1 md:grid-cols-2 gap-6 my-10"
+    class="flex flex-row justify-center w-full"
   >
   
     <app-middelware-card
       title={{cardItems[0].title}}
       text={{cardItems[0].text}}
-      imgSrc="https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=600"
+      imgSrc="assets/images/build/biuld_erp_imgs (4).jpg"
     >
     </app-middelware-card>
 
@@ -26,18 +26,27 @@
       title={{cardItems[1].title}}
       text={{cardItems[1].text}}
 
-      imgSrc="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600"
+      imgSrc="assets/images/build/biuld_erp_imgs (3).jpg"
     >
     </app-middelware-card>
+
+       <app-middelware-card
+      title={{cardItems[2].title}}
+      text={{cardItems[2].text}}
+
+      imgSrc="assets/images/build/biuld_erp_imgs (1).jpeg"
+    >
+    </app-middelware-card>
+
+   
   </div>
 
   <!-- CARD TYPE 2 -->
-  <div class="flex flex-col gap-16">
+  <!-- <div class="flex flex-col gap-16">
 
     <app-middelware-card-2
       [leftSide]="true"
-      title={{cardItems[2].title}}
-      text={{cardItems[2].text}}
+      
       imgSrc="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600"
     >
     </app-middelware-card-2>
@@ -50,11 +59,15 @@
     >
     </app-middelware-card-2>
 
-  </div>
+  </div> -->
 
 </app-middelware>
+
+
+
 
 
 <app-login-card></app-login-card>
 <app-faq></app-faq>
 
+ <app-middelware-carusel></app-middelware-carusel>
