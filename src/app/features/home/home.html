@@ -11,35 +11,29 @@
 <app-middelware>
 
   <!-- TOP 2 CARDS -->
-  <div
-    class="flex flex-row justify-center w-full"
-  >
+ <div class="w-fit m-auto grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3   ">
   
-    <app-middelware-card
-      title={{cardItems[0].title}}
-      text={{cardItems[0].text}}
-      imgSrc="assets/images/build/biuld_erp_imgs (4).jpg"
-    >
-    </app-middelware-card>
+  <app-middelware-card
+    [title]="cardItems[0].title"
+    [text]="cardItems[0].text"
+    imgSrc="assets/images/build/biuld_erp_imgs (4).jpg">
+  </app-middelware-card>
 
-    <app-middelware-card
-      title={{cardItems[1].title}}
-      text={{cardItems[1].text}}
+  <app-middelware-card
+  class="mt-2"
+    [title]="cardItems[1].title"
+    [text]="cardItems[1].text"
+    imgSrc="assets/images/build/biuld_erp_imgs (3).jpg">
+  </app-middelware-card>
 
-      imgSrc="assets/images/build/biuld_erp_imgs (3).jpg"
-    >
-    </app-middelware-card>
+  <app-middelware-card
+    [title]="cardItems[2].title"
+    [text]="cardItems[2].text"
+    imgSrc="assets/images/build/biuld_erp_imgs (1).jpeg">
+  </app-middelware-card>
 
-       <app-middelware-card
-      title={{cardItems[2].title}}
-      text={{cardItems[2].text}}
+</div>
 
-      imgSrc="assets/images/build/biuld_erp_imgs (1).jpeg"
-    >
-    </app-middelware-card>
-
-   
-  </div>
 
   <!-- CARD TYPE 2 -->
   <!-- <div class="flex flex-col gap-16">
